@@ -1,5 +1,4 @@
-﻿using Calculator.CalculatorModule;
-using Calculator.Interfaces;
+﻿using Calculator.Interfaces;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -7,7 +6,6 @@ namespace Calculator.DialogModule
 {
     public class DialogPresenter : IDialogWindow
     {
-        private readonly CalculatorModel _model;
         private readonly DialogViewFactory _viewFactory;
 
         private DialogView _view;
